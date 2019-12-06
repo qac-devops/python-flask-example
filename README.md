@@ -1,5 +1,8 @@
 # python-flask-example
 ## Setup
+### Requirements
+- Python 3
+- Virtualenv
 ### Dependencies & Virtual Environment
 The virtual environment and the application dependencies can be configured using the following:
 ```bash
