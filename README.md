@@ -5,9 +5,18 @@
 - Virtualenv
 ### Dependencies & Virtual Environment
 The virtual environment and the application dependencies can be configured using the following:
+
+#### Linux/MacOS
 ```bash
 virtualenv -p python3 venv
 source ./venv/bin/activate
+pip install -r requirements.txt
+```
+
+#### Windows
+```powershell
+virtualenv venv
+./venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
